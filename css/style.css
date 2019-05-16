@@ -1,0 +1,23 @@
+.color{
+  height:100px;
+   background-color:red;
+}
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: relative;
+	-webkit-animation-name: test;
+	-webkit-animation-duration: 5s;
+	border: 1px solid black;
+	animation:test 8s 2s reverse 5 linear;
+}
+
+@keyframes test{
+	0%{background-color: gray; left:0px; top:0;}
+	25%{background-color: green; left:300px; top:0px;}
+	50%{background-color: blue; left:300px; top:300px;}
+	75%{background-color: yellow; left:0px; top:300px;}
+	100%{background-color: aqua; left: :0px; top:0px;}
+
+}
